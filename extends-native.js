@@ -1,5 +1,12 @@
 // extends native
 
+/**
+ * Design achievement
+ * 1. Create a native instance.
+ * 2. Set native instance's [[prototype]] to Subtype prototype
+ * 3. Set Subtype's prototype to native prototype
+ */
+
 // Sub type
 function SubTypeOfNative() { };
 // New native instance
